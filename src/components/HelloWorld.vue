@@ -79,6 +79,7 @@
           awesome-vue
         </a>
       </li>
+      <router-link to="/test">Test</router-link>
     </ul>
   </div>
 </template>
@@ -88,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome zhihui'
+      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
